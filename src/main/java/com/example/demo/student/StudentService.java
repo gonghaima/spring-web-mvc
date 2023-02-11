@@ -1,8 +1,12 @@
 package com.example.demo.student;
 import java.time.Month;
 import java.util.List;
+
+import org.springframework.stereotype.Service;
+
 import java.time.LocalDate;
 
+@Service
 public class StudentService {
     public List<Student> geStudents() {
         return List.of(
